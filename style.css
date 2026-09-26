@@ -1,0 +1,46 @@
+body{
+    background-image: url(imagens/padrao-de-cartas-de-jogar-desenhado-a-mao_23-2151040032.avif);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-size: cover;
+    text-align: center;
+    font-weight: bold;
+}
+
+p{
+    color: white;
+    font-size: 30px;
+}
+
+h1{
+    color: goldenrod;
+    font-size: 50px;
+}
+
+.quadrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: green;
+    width: 700px;
+    text-align: center;
+    padding: 50px 50px;
+    border-radius: 10px;
+    
+}
+
+button{
+    display: block;
+    align-items: center;
+    color: #016f32;
+    width: 150px;
+    background: goldenrod;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 4px;
+    margin-top: 2px;
+    margin-left: 40%;
+}
