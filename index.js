@@ -1,8 +1,13 @@
 
 let jogador = {
     nome: "Leonardo",
-    creditos: 205
+    creditos: 205,
+    saldacao: function() {
+        console.log("Ola")
+    }
 }
+jogador.saldacao()
+
 let fezVinteUm = false
 let aindaEstaNoJogo = false
 let mensagem = ""
